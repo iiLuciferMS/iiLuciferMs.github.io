@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file:///D:/The%20Project/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">News</a>
+        <a href="#">Matches</a>
+        <a href="#">The League</a>
+        <a href="#">Historic Records</a>
+        <a href="#">Best Goals</a>
+        <a href="#">Injuries</a>
+        <a href="#">Transfers</a>
+        <a href="#">Polls</a>
+        <a href="#">Stadiums</a>
+        <a href="#">Register</a>
+        <a href="#">Feedback</a>
+      </div>
+      <div class="mainbar">
+        <span id="menuicon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a class="logo" href="file:///D:/The%20Project/HomePage.html">
+           <img width="140px" height="88px" src="file:///D:/The%20Project/Images/logo.png">
+        </a>
+        <div id="login-search">
+          <a id="login1" href="#">Login <i class="fa fa-fw fa-user"></i></a>
+          <div class="search-container">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+            </form>
+          </div>
+        </div>
+      </div>
+<br><br> <h1>Login</h1><br>    
+<div class="login">    
+<form id="login" method="get" action="login.php">    
+    <label><b>User Name     
+    </b>    
+    </label>    
+    <input type="text" name="Uname" id="Uname" placeholder="Username">    
+    <br><br>    
+    <label><b>Password     
+    </b>    
+    </label>    
+    <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+    <br><br>    
+    <input type="button" name="log" id="log" value="Log In Here">       
+    <br><br>    
+    <input type="checkbox" id="check">    
+    <span>Remember me</span>    
+    <br><br>    
+    <a href="#" id="forgot">Forgot Your Password ?</a>  
+    <br><br>    
+    <a href="#Regster" id="forgot">Don't have an account ? Sign Up Now!</a>  
+</form>
+</div>
+<footer>
+    <div class="footer-content">
+      <div class="logo" id="footer-logo">
+        <a id="nano55" href="file:///D:/The%20Project/HomePage.html">
+        <img width="140px" height="88px" src="file:///D:/The%20Project/Images/logo.png">
+        </a>
+      </div>
+      <div class="links">
+        <br><br><br><br><br>
+        <ul>
+          <il><a href="file:///D:/The%20Project/HomePage.html" class="list">Home</a></il>
+          <il><a href="#records" class="list">Records</a></il>
+          <il><a href="#goals" class="list">Goals</a></il>
+          <il><a href="#Polls" class="list">Polls</a></il>
+          <il><a href="#Stadiums" class="list">Stadiums</a></il>
+        </ul>
+      </div>
+      <div class="socials">
+        <a href="#facebook" id="socials-icon"><i class="fa fa-facebook"></i></a>
+        <a href="#insta" id="socials-icon"><i class="fa fa-instagram"></i></a>
+        <a href="#youtube" id="socials-icon"><i class="fa fa-youtube"></i></a>
+        <a href="#twitter" id="socials-icon"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+      <div class="footer-bottom">
+        &copy; Helwan-Premiere.com | Designed by Fady Milad
+      </div>
+    </footer>
+<script src="file:///D:/The%20Project/Login.js"></script>
+</body>
+</html>

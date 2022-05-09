@@ -1,0 +1,228 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: linear-gradient(to right, #1F6E72, #C5DFBA);
+    font-family: 'Arial';  
+    direction: ltr;
+}  
+body::after{
+    content: '';
+    display: block;
+    height: 300px;
+  }
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h1{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+} 
+#forgot {
+    float: left;
+} 
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right; 
+    background: #38685e;   
+    color: white; 
+    text-decoration: none;
+} 
+a:visited {
+    color: purple;
+}
+.login a:hover {
+    color: blue;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+.sidenav a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    background-color: black;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+#menuicon {
+    float: left ;
+    color: aliceblue;
+    margin-left: 6px;
+    margin-top: 10px;
+    }
+.mainbar {
+      background-color: black;
+      overflow: hidden;
+      font-family: droidLight ,arial ;
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 70px;
+    }
+#login1 {
+    float: right;
+    color:snow;
+    background-color: black;
+    font-size: large;
+    margin-top: 23px;
+    text-decoration: none;
+  }
+.mainbar input[type=text] {
+    float: right;
+    border: 1px snow;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    font-size: 12px;
+    height:29px;
+  }
+.mainbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 18px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.mainbar .search-container button:hover {
+    background: #ccc;
+  }
+.logo {
+    position: absolute;
+    left: 45%;
+     background-color: black;
+  }
+  footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 300px;
+    position: absolute ;
+    bottom: -350px;
+    left: 240px;
+    width: 100%;
+    width: 850px;
+    align-items: center;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  #footer-logo {
+    margin-left: -30px;
+    top: 0;
+    background-color: #303036;
+  }
+  .links {
+    padding: 20px;
+    background-color: #303036;
+  }
+  .links a {
+      text-decoration: none;
+  }
+  .list {
+      padding: 5px;
+      font-size: 20px;
+      background-color: #303036;
+      color: black;
+  }
+  .list:hover {
+      font-weight: bold;
+  }
+  .socials {
+    background-color: #303036;
+    padding: 20px;
+  }
+  #socials-icon {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+      background-color: #303036;
+  }
+  #nano55 {
+    background-color: #303036;
+  }
